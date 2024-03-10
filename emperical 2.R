@@ -7,7 +7,6 @@ library(ggplot2)
 library(fixest)
 library(HonestDiD)
 #read the list
-Object_list <- readRDS("C:/Users/22133/Desktop/Inputs/surveyOfPapers_resultsObjectList.rds")
 list<-Object_list[[3]]
 source(here("C:/Users/22133/Desktop/master thesis/HonestParallelTrends_RESTUD_ReplicationFiles/HonestParallelTrends_RESTUD_ReplicationFiles/Code/UtilityFunctions/applications-helper-functions.R"))
 source(here("C:/Users/22133/Desktop/master thesis/HonestParallelTrends_RESTUD_ReplicationFiles/HonestParallelTrends_RESTUD_ReplicationFiles/Code/UtilityFunctions/fte_theme.R"))
